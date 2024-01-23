@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/assets/spotify.png" type="image/x-icon" />
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -21,36 +21,50 @@
             <img src="/assets/logo-spotify.png" alt="logo do spotify" />
           </a>
         </div>
-        <div class="">
-          <ul>
-            <li>
-              <a href="">
-                <i class="bi bi-house-door-fill"></i>
-                <span>Início</span>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <i class="bi bi-search"></i>
-                <span>Buscar</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+        <ul>
+          <li>
+            <a href="">
+              <i class="bi bi-house-door-fill"></i>
+              <span>Início</span>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="bi bi-search"></i>
+              <span>Buscar</span>
+            </a>
+          </li>
+        </ul>
       </nav>
-      <nav class="sidebar__navigation">
-        <div class="library">
-          <ul>
-            <li>
-              <a href="">
-                <i class="bi bi-collection-play-fill"></i>
-                <span>Sua Biblioteca</span>
-                <i class="bi bi-plus-lg"></i>
-              </a>
-            </li>
-          </ul>
+      <div class="library">
+        <div class="library__content">
+          <button class="library__button">
+            <i class="bi bi-collection-play-fill"></i>
+            <span>Sua Biblioteca</span>
+          </button>
+          <i class="bi bi-plus-lg"></i>
         </div>
-      </nav>
+        <section class="section-playlist">
+          <div class="section-playlist__content">
+            <span class="text title">Crie sua primeira playlist</span>
+            <span class="text subtitle">É fácil, vamos te ajudar!</span>
+            <button class="section-playlist__button">
+              <span>Criar playlist</span>
+            </button>
+          </div>
+        </section>
+
+        <div class="cookies">
+          <a href="">Cookies</a>
+        </div>
+
+        <div class="languages">
+          <button class="languages__button">
+            <i class="bi bi-globe"></i>
+            <span>Portugues do Brasil</span>
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
